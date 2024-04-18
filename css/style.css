@@ -1,0 +1,359 @@
+/* Main Selectors */
+
+html {
+  scroll-behavior: smooth;
+  background-color: #cdcdcd;
+}
+
+body {
+  width: 100% !important;
+  height: 100% !important;
+  font-family: 'IBM Plex Sans', sans-serif;
+  background-color: #cdcdcd;
+}
+
+
+/* Navigation */
+
+#menu a.navbar-brand {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 33px;
+  color: #ff7f2a;
+  font-weight: 700;
+}
+
+#menu a.navbar-brand .logo {
+  margin-top: -9px;
+}
+
+#main-menu-list a {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 18px;
+  color: #343b42;
+}
+
+#main-menu-list .nav-btn.active {
+  color: #ff7f2a;
+  background: none;
+  border: transparent;
+}
+
+
+/* Header */
+
+header {
+  background-color: #dedede;
+  background: url(../img/banner.png) no-repeat;
+  background-size: 50%;
+  background-position-y: 60%;
+  background-position-x: 1000px;
+
+}
+
+header .intro {
+  padding-top: 220px;
+  padding-bottom: 170px;
+}
+
+header .intro-content {
+  padding-left: 60px;
+}
+
+header h1 {
+  color: #ff7f2a;
+  font-size: 60px;
+}
+
+header .lead {
+  color: #343b42;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-size: 22px;
+}
+
+header .btn {
+  border-radius: 0;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-size: 16px;
+}
+
+header .btn-primary {
+  background-color: #ff7f2a;
+  border-color: #ff7f2a;
+}
+
+header .btn-primary:hover {
+  background-color: #b63a21;
+  border-color: #b63a21;
+}
+
+header .btn-secondary {
+  background-color: #666;
+  border-color: #666;
+}
+
+header .btn-secondary:hover {
+  background-color: #333;
+  border-color: #333;
+}
+
+
+/* Common Section Directives */
+
+.section-title {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.section-title h1 {
+  padding-bottom: 20px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 700;
+}
+
+.section-title hr {
+  height: 3px;
+  width: 80px;
+  text-align: center;
+  position: relative;
+  background: #999;
+  margin: 0 auto;
+  border: 0;
+}
+
+.section-content {
+  margin-top: 110px;
+  padding-bottom: 130px;
+}
+
+
+/* First Section */
+
+#first-section {
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #343b42;
+
+
+}
+
+#first-section .section-title {
+  padding-top: 80px;
+  color: #ccc;
+}
+
+#first-section .section-content {
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  padding-bottom: 80px;
+  color: #ccc;
+}
+
+#first-section .col-item {
+  padding-bottom: 80px;
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+#first-section .col-item p {
+  font-size: 27px;
+}
+
+#first-section .icon {
+  margin-bottom: 18px;
+  color: #ff7f2a;
+  font-size: 110px;
+}
+
+
+/* Second Section */
+
+#second-section {
+  padding-left: 30px;
+  padding-right: 30px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#54d0dd+0,54d0dd+0,54d0dd+0,ffffff+0,efefef+100 */
+  background: linear-gradient(to bottom,  #54d0dd 0%,#54d0dd 0%,#54d0dd 0%,#ffffff 0%,#efefef 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+#second-section .section-content {
+  margin-top: 60px;
+}
+
+#second-section .card {
+  margin-bottom: 18px;
+}
+
+#second-section h5 {
+  color: #ff7f2a;
+}
+
+#second-section .icon {
+  color: #fff;
+  background-color: #666;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+#second-section .image-item {
+  text-align: left;
+  margin-left: -23px;
+}
+
+#second-section .description-item {
+  text-align: center;
+  margin-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#second-section .description-item p {
+  font-size: 15px;
+}
+
+
+/* Third Section */
+
+#third-section {
+  padding-left: 30px;
+  padding-right: 30px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#54d0dd+0,54d0dd+0,54d0dd+0,ffffff+0,efefef+100 */
+  background: linear-gradient(to bottom,  #54d0dd 0%,#54d0dd 0%,#54d0dd 0%,#ffffff 0%,#efefef 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+#third-section .section-title {
+  padding-top: 80px;
+}
+
+#third-section .section-content {
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  padding-bottom: 150px;
+}
+
+#third-section .col-item {
+  padding-bottom: 80px;
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+#third-section .icon {
+  margin-bottom: 18px;
+  color: #ff7f2a;
+  font-size: 110px;
+}
+
+#third-section .col-item p {
+  font-size: 23px;
+}
+
+
+/* Fourth Section */
+
+#fourth-section {
+  background-color: #343b42;
+  color: #eee;
+}
+
+#fourth-section .card {
+  background-color: #ff7f2a;
+  margin-bottom: 22px;
+}
+
+#fourth-section .card .data-history {
+  font-size: 36px;
+  color: #FFF;
+}
+
+#fourth-section .right-col {
+  padding-bottom: 40px;
+  padding-left: 30px;
+}
+
+#fourth-section .left-col {
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  color: #ddd;
+  padding-left: 50px;
+}
+
+#fourth-section .left-col h5 {
+  color: #ff7f2a;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+/* Section Contact */
+
+#section-contact {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#54d0dd+0,54d0dd+0,54d0dd+0,ededed+0,dcdcdc+100 */
+  background: linear-gradient(to bottom,  #54d0dd 0%,#54d0dd 0%,#54d0dd 0%,#ededed 0%,#cdcdcd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+#section-contact .section-content {
+  margin-top: 60px;
+}
+
+#section-contact .form-control {
+  background-color: #ccc;
+  border-radius: 0;
+  border-color: #ddd;
+}
+
+#section-contact .btn-primary {
+  width: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #343b42;
+  border-color: #343b42;
+  border-radius: 0;
+  color: #ff7f2a;
+}
+
+#section-contact .btn-primary:hover {
+  background-color: #343b42;
+  border-color: #343b42;
+  color: #ccc;
+}
+
+#section-contact .form-control::-webkit-input-placeholder {
+  color: #aaa;
+}
+
+#section-contact .form-control:-moz-placeholder {
+  color: #aaa;
+}
+
+#section-contact .form-control::-moz-placeholder {
+  color: #aaa;
+}
+
+#section-contact .form-control:-ms-input-placeholder {
+  color: #aaa;
+}
+
+#section-contact .address {
+  margin-top: 80px;
+  text-align: center;
+}
+
+#section-contact .address ul li {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  list-style: none;
+}
+
+
+/* Footer */
+
+footer {
+  background-color: #cdcdcd;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-size: 14px;
+}
+
