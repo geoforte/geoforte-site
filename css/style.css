@@ -43,11 +43,9 @@ body {
 
 header {
   background-color: #dedede;
-  background: url(../img/banner.png) no-repeat;
-  background-size: 50%;
-  background-position-y: 60%;
-  background-position-x: 1000px;
-
+  background: url(../img/about.png) no-repeat;
+  background-size: 100%;
+  background-position-y: 50%;
 }
 
 header .intro {
@@ -65,7 +63,7 @@ header h1 {
 }
 
 header .lead {
-  color: #343b42;
+  color: #fff;
   font-family: 'IBM Plex Sans Condensed', sans-serif;
   font-size: 22px;
 }
