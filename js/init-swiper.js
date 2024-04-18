@@ -1,4 +1,4 @@
-// Initialize Swiper 
+// Initialize Swiper
 var mySwiper = new Swiper('.swiper', {
   slidesPerView: 4,
   slidesPerGroup: 4,
@@ -14,13 +14,13 @@ var mySwiper = new Swiper('.swiper', {
     499: {
       slidesPerView: 1,
       slidesPerGroup: 1,
-      spaceBetweenSlides: 30
+      spaceBetween: 30 // Corrected property name
     },
     // when window width is <= 999px
     999: {
-      slidesPerView: 4,
-      slidesPerGroup: 4,
-      spaceBetweenSlides: 40
+      slidesPerView: 2, // Adjusted for better responsiveness
+      slidesPerGroup: 2,
+      spaceBetween: 40 // Corrected property name
     }
   }
 });
