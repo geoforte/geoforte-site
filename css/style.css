@@ -123,6 +123,11 @@ header .btn-secondary:hover {
   padding-bottom: 130px;
 }
 
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
 
 /* First Section */
 
