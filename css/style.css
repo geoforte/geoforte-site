@@ -43,9 +43,13 @@ body {
 
 header {
   background-color: #dedede;
-  background: url(../img/about.png) no-repeat;
+  background: url(../img/about.png) no-repeat center bottom;
   background-size: 100%;
   background-position-y: 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 header .intro {
@@ -80,8 +84,8 @@ header .btn-primary {
 }
 
 header .btn-primary:hover {
-  background-color: #b63a21;
-  border-color: #b63a21;
+  background-color: #333;
+  border-color: #333;
 }
 
 header .btn-secondary {
@@ -198,7 +202,6 @@ header .btn-secondary:hover {
 
 #second-section .image-item {
   text-align: left;
-  margin-left: -23px;
 }
 
 #second-section .description-item {

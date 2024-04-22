@@ -1,7 +1,7 @@
 // Initialize Swiper
 var mySwiper = new Swiper('.swiper', {
-  slidesPerView: 4,
-  slidesPerGroup: 4,
+  slidesPerView: 2,
+  slidesPerGroup: 2,
   spaceBetween: 30,
   loop: true,
   pagination: {
